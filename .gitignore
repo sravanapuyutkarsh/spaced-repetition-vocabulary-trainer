@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+env/
+.venv/
+
+# Local databases
+vocabulary.db
+vocabulary_backup.db
+migration_test.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
